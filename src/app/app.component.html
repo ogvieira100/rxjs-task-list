@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-body">
+          <task-tasks  ></task-tasks>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-body">
+          <task-tasks [taskType]="TaskType.progress"></task-tasks>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-body">
+          <task-tasks [taskType]="TaskType.finished"></task-tasks>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
